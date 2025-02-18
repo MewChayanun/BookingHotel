@@ -1,0 +1,803 @@
+[
+    {
+      "text_id": "best_hotel_deals",
+      "en": "Best hotel deals for your holiday",
+      "th": "ดีลโรงแรมที่ดีที่สุดสำหรับวันหยุดของคุณ"
+    },
+    {
+      "text_id": "already_have_account",
+      "en": "Already have account? Log in",
+      "th": "มีบัญชีอยู่แล้ว? เข้าสู่ระบบ"
+    },
+    {
+      "text_id": "get_started",
+      "en": "Get started",
+      "th": "เริ่มต้น"
+    },
+    {
+      "text_id": "plan_your_trips",
+      "en": "Plan your trips",
+      "th": "วางแผนการเดินทางของคุณ"
+    },
+    {
+      "text_id": "book_one_of_your",
+      "en": "book one of your unique hotel to\nescape the ordinary",
+      "th": "จองโรงแรมที่ไม่ซ้ำใครของคุณเพื่อหลีกหนีจากความธรรมดา"
+    },
+    {
+      "text_id": "find_best_deals",
+      "en": "Find best deals",
+      "th": "ค้นหาดีลที่ดีที่สุด"
+    },
+    {
+      "text_id": "find_deals_for_any",
+      "en": "Find deals for any season from cosy\ncountry homes to city flats",
+      "th": "ค้นหาดีลสำหรับทุกฤดูกาล จากบ้านชนบทที่อบอุ่นถึงอพาร์ตเมนต์ในเมือง"
+    },
+    {
+      "text_id": "best_travelling_all_time",
+      "en": "Best travelling all time",
+      "th": "การเดินทางที่ดีที่สุดตลอดกาล"
+    },
+    {
+      "text_id": "login",
+      "en": "Login",
+      "th": "เข้าสู่ระบบ"
+    },
+    {
+      "text_id": "create_account",
+      "en": "Create account",
+      "th": "สร้างบัญชี"
+    },
+    {
+      "text_id": "log_with mail",
+      "en": "or log in with email",
+      "th": "หรือเข้าสู่ระบบด้วยอีเมล"
+    },
+    {
+      "text_id": "your_mail",
+      "en": "Your email",
+      "th": "อีเมลของคุณ"
+    },
+    {
+      "text_id": "password",
+      "en": "Password",
+      "th": "รหัสผ่าน"
+    },
+    {
+      "text_id": "forgot_your_Password",
+      "en": "Forgot your Password?",
+      "th": "ลืมรหัสผ่าน?"
+    },
+    {
+      "text_id": "resend_email_link",
+      "en": "Enter your email to receive an email to reset your password",
+      "th": "กรอกอีเมลของคุณเพื่อรับลิงก์รีเซ็ตรหัสผ่าน"
+    },
+    {
+      "text_id": "send",
+      "en": "Send",
+      "th": "ส่ง"
+    },
+    {
+      "text_id": "sign_up",
+      "en": "Sign up",
+      "th": "สมัครสมาชิก"
+    },
+    {
+      "text_id": "first_name",
+      "en": "First name",
+      "th": "ชื่อ"
+    },
+    {
+      "text_id": "last_name",
+      "en": "Last name",
+      "th": "นามสกุล"
+    },
+    {
+      "text_id": "terms_agreed",
+      "en": "By Signing up,you agreed with our terms of\n Services and privacy policy",
+      "th": "โดยการสมัครสมาชิก คุณยอมรับข้อกำหนดการให้บริการและนโยบายความเป็นส่วนตัวของเรา"
+    },
+    {
+      "text_id": "explore",
+      "en": "Explore",
+      "th": "สำรวจ"
+    },
+    {
+      "text_id": "trips",
+      "en": "Trips",
+      "th": "ทริป"
+    },
+    {
+      "text_id": "profile",
+      "en": "Profile",
+      "th": "โปรไฟล์"
+    },
+    {
+      "text_id": "where_are_you_going",
+      "en": "Where are you going?",
+      "th": "คุณจะไปที่ไหน?"
+    },
+    {
+      "text_id": "search_hotel",
+      "en": "Search",
+      "th": "ค้นหา"
+    },
+    {
+      "text_id": "hotel_data",
+      "en": "Hotel",
+      "th": "โรงแรม"
+    },
+    {
+      "text_id": "Backpacker_data",
+      "en": "Backpacker",
+      "th": "นักเดินทาง"
+    },
+    {
+      "text_id": "Resort_data",
+      "en": "Resort",
+      "th": "รีสอร์ท"
+    },
+    {
+      "text_id": "villa_data",
+      "en": "Villa",
+      "th": "วิลล่า"
+    },
+    {
+      "text_id": "apartment",
+      "en": "Apartment",
+      "th": "อพาร์ตเมนต์"
+    },
+    {
+      "text_id": "guest_house",
+      "en": "Guest house",
+      "th": "เกสต์เฮ้าส์"
+    },
+    {
+      "text_id": "motel",
+      "en": "Motel",
+      "th": "โมเต็ล"
+    },
+    {
+      "text_id": "accommodation",
+      "en": "Accommodation",
+      "th": "ที่พัก"
+    },
+    {
+      "text_id": "Bed_breakfast",
+      "en": "Bed & Breakfast",
+      "th": "เตียงและอาหารเช้า"
+    },
+    {
+      "text_id": "Last_search",
+      "en": "Last searches",
+      "th": "การค้นหาครั้งล่าสุด"
+    },
+    {
+      "text_id": "clear_all",
+      "en": "Clear all",
+      "th": "ล้างทั้งหมด"
+    },
+    {
+      "text_id": "cape Town",
+      "en": "Cape Town",
+      "th": "เคปทาวน์"
+    },
+    {
+      "text_id": "five_star",
+      "en": "Extraordinary five-star\noutdoor activites",
+      "th": "กิจกรรมกลางแจ้งระดับห้าดาวที่ยอดเยี่ยม"
+    },
+    {
+      "text_id": "view_hotel",
+      "en": "View Hotel",
+      "th": "ดูโรงแรม"
+    },
+    {
+      "text_id": "hotel found",
+      "en": "Hotel found",
+      "th": "พบโรงแรม"
+    },
+    {
+      "text_id": "filtter",
+      "en": "Filtter",
+      "th": "ตัวกรอง"
+    },
+    {
+      "text_id": "popular_destination",
+      "en": "Popular Destination",
+      "th": "จุดหมายปลายทางยอดนิยม"
+    },
+    {
+      "text_id": "best_deal",
+      "en": "Best Deals",
+      "th": "ดีลที่ดีที่สุด"
+    },
+    {
+      "text_id": "view_all",
+      "en": "View all",
+      "th": "ดูทั้งหมด"
+    },
+    {
+      "text_id": "km_to_city",
+      "en": "km to city",
+      "th": "กม. ถึงเมือง"
+    },
+    {
+      "text_id": "per_night",
+      "en": "/per night",
+      "th": "/ต่อคืน"
+    },
+    {
+      "text_id": "reviews",
+      "en": "Reviews",
+      "th": "รีวิว"
+    },
+    {
+      "text_id": "book_now",
+      "en": "Book now",
+      "th": "จองเลย"
+    },
+    {
+      "text_id": "more_details",
+      "en": "More Details",
+      "th": "รายละเอียดเพิ่มเติม"
+    },
+    {
+      "text_id": "summary",
+      "en": "Summary",
+      "th": "สรุป"
+    },
+    {
+      "text_id": "read_more",
+      "en": "read more",
+      "th": "อ่านเพิ่มเติม"
+    },
+    {
+      "text_id": "less",
+      "en": "less",
+      "th": "น้อยลง"
+    },
+    {
+      "text_id": "Overall_rating",
+      "en": "Overall rating",
+      "th": "คะแนนรวม"
+    },
+    {
+      "text_id": "room",
+      "en": "Room",
+      "th": "ห้อง"
+    },
+    {
+      "text_id": "service",
+      "en": "Services",
+      "th": "บริการ"
+    },
+    {
+      "text_id": "location",
+      "en": "Location",
+      "th": "ที่ตั้ง"
+    },
+    {
+      "text_id": "price",
+      "en": "Prcie",
+      "th": "ราคา"
+    },
+    {
+      "text_id": "room_photo",
+      "en": "Photo",
+      "th": "รูปภาพ"
+    },
+    {
+      "text_id": "last_update",
+      "en": "Last Update",
+      "th": "อัปเดตล่าสุด"
+    },
+    {
+      "text_id": "reply",
+      "en": "Reply",
+      "th": "ตอบกลับ"
+    },
+    {
+      "text_id": "My_Trips",
+      "en": "My Trip",
+      "th": "ทริปของฉัน"
+    },
+    {
+      "text_id": "upcoming",
+      "en": "Upcoming",
+      "th": "กำลังจะมา"
+    },
+    {
+      "text_id": "finished",
+      "en": "Finished",
+      "th": "เสร็จสิ้น"
+    },
+    {
+      "text_id": "favorites",
+      "en": "Favorites",
+      "th": "รายการโปรด"
+    },
+    {
+      "text_id": "hotel_found",
+      "en": "Hotel Found",
+      "th": "พบโรงแรม"
+    },
+    {
+      "text_id": "filtter",
+      "en": "filtter",
+      "th": "ตัวกรอง"
+    },
+    {
+      "text_id": "price_text",
+      "en": "price (for 1 night)",
+      "th": "ราคา (สำหรับ 1 คืน)"
+    },
+    {
+      "text_id": "popular filter",
+      "en": "Popular filter",
+      "th": "ตัวกรองยอดนิยม"
+    },
+    {
+      "text_id": "distance from city",
+      "en": "Distance from city center",
+      "th": "ระยะทางจากใจกลางเมือง"
+    },
+    {
+      "text_id": "type of accommodation",
+      "en": "Type of Accommodation",
+      "th": "ประเภทที่พัก"
+    },
+    {
+      "text_id": "Apply_text",
+      "en": "Apply",
+      "th": "ใช้งาน"
+    },
+    {
+      "text_id": "all_text",
+      "en": "All",
+      "th": "ทั้งหมด"
+    },
+    {
+      "text_id": "Home_text",
+      "en": "Home",
+      "th": "หน้าหลัก"
+    },
+    {
+      "text_id": "free_breakfast",
+      "en": "Free Breakfast",
+      "th": "อาหารเช้าฟรี"
+    },
+    {
+      "text_id": "free_Parking",
+      "en": "Free Parking",
+      "th": "ที่จอดรถฟรี"
+    },
+    {
+      "text_id": "pool_text",
+      "en": "Pool",
+      "th": "สระว่ายน้ำ"
+    },
+    {
+      "text_id": "pet_friendlly",
+      "en": "Pet Friendlly",
+      "th": "สัตว์เลี้ยงได้รับการต้อนรับ"
+    },
+    {
+      "text_id": "Free_Wifi",
+      "en": "Free Wifi",
+      "th": "ไวไฟฟรี"
+    },
+    {
+      "text_id": "Less_than",
+      "en": "Less than",
+      "th": "น้อยกว่า"
+    },
+    {
+      "text_id": "km_text",
+      "en": "Km",
+      "th": "กม."
+    },
+    {
+      "text_id": "amanda_text",
+      "en": "Amanda",
+      "th": "อแมนดา"
+    },
+    {
+      "text_id": "view_edit",
+      "en": "View and Edit profile",
+      "th": "ดูและแก้ไขโปรไฟล์"
+    },
+    {
+      "text_id": "edit_profile",
+      "en": "Edit Profile",
+      "th": "แก้ไขโปรไฟล์"
+    },
+    {
+      "text_id": "username_text",
+      "en": "UserName",
+      "th": "ชื่อผู้ใช้"
+    },
+    {
+      "text_id": "phone",
+      "en": "Phone",
+      "th": "โทรศัพท์"
+    },
+    {
+      "text_id": "date_of_birth",
+      "en": "Date of Birth",
+      "th": "วันเกิด"
+    },
+    {
+      "text_id": "address_text",
+      "en": "Address",
+      "th": "ที่อยู่"
+    },
+    {
+      "text_id": "mail_text",
+      "en": "Email",
+      "th": "อีเมล"
+    },
+    {
+      "text_id": "change_password",
+      "en": "Change Password",
+      "th": "เปลี่ยนรหัสผ่าน"
+    },
+    {
+      "text_id": "enter_your_new_password",
+      "en": "Enter your new password and confirm your password",
+      "th": "กรอกรหัสผ่านใหม่และยืนยันรหัสผ่านของคุณ"
+    },
+    {
+      "text_id": "new_password",
+      "en": "New Password",
+      "th": "รหัสผ่านใหม่"
+    },
+    {
+      "text_id": "confirm_password",
+      "en": "Confirm Password",
+      "th": "ยืนยันรหัสผ่าน"
+    },
+    {
+      "text_id": "invite_friend",
+      "en": "Invite Friend",
+      "th": "เชิญเพื่อน"
+    },
+    {
+      "text_id": "invite_your_friend",
+      "en": "Invite your Friend",
+      "th": "เชิญเพื่อนของคุณ"
+    },
+    {
+      "text_id": "invite_friend_desc",
+      "en": "are you one of those who makes everything at the last moment",
+      "th": "คุณเป็นคนที่ทำทุกอย่างในนาทีสุดท้ายหรือไม่"
+    },
+    {
+      "text_id": "share_text",
+      "en": "Share",
+      "th": "แชร์"
+    },
+    {
+      "text_id": "credit_coupons",
+      "en": "Crdit & Coupons",
+      "th": "เครดิตและคูปอง"
+    },
+    {
+      "text_id": "help_center",
+      "en": "Help Center",
+      "th": "ศูนย์ช่วยเหลือ"
+    },
+    {
+      "text_id": "how_can_help_you",
+      "en": "How can we help",
+      "th": "เราจะช่วยคุณได้อย่างไร"
+    },
+    {
+      "text_id": "search_help_artical",
+      "en": "Search help articales",
+      "th": "ค้นหาบทความช่วยเหลือ"
+    },
+    {
+      "text_id": "paying_for_a_reservation",
+      "en": "Paying for a reservation",
+      "th": "ชำระเงินสำหรับการจอง"
+    },
+    {
+      "text_id": "trust_and_safety",
+      "en": "Trust and Safety",
+      "th": "ความน่าเชื่อถือและความปลอดภัย"
+    },
+    {
+      "text_id": "How do I ",
+      "en": "How do I cancel my rooms reservation?",
+      "th": "ฉันจะยกเลิกการจองห้องได้อย่างไร?"
+    },
+    {
+      "text_id": "What methods ",
+      "en": "What methods of payment does Roome accept?",
+      "th": "Roome รับวิธีการชำระเงินแบบใดบ้าง?"
+    },
+    {
+      "text_id": "I'm_a_guest_What",
+      "en": "I'm a guest. What are some safety tips I can follow?",
+      "th": "ในฐานะผู้เข้าพัก มีคำแนะนำด้านความปลอดภัยอะไรบ้างที่ฉันควรทำตาม?"
+    },
+    {
+      "text_id": "When am I charged",
+      "en": "When am I charged for a reservation?",
+      "th": "เมื่อใดที่ฉันจะถูกเรียกเก็บเงินสำหรับการจอง?"
+    },
+    {
+      "text_id": "How do I edit",
+      "en": "How do I edit or remove a payment method?",
+      "th": "ฉันจะแก้ไขหรือเอาวิธีการชำระเงินออกได้อย่างไร?"
+    },
+    {
+      "text_id": "You can cancel",
+      "en": "You can cancel a reservation any time before Or during your trip. To cancel a reservation:",
+      "th": "คุณสามารถยกเลิกการจองได้ทุกเมื่อ ก่อนหรือระหว่างการเดินทางของคุณ โดยทำตามขั้นตอน:"
+    },
+    {
+      "text_id": "GO to Trips and choose yotr trip",
+      "en": "GO to Trips and choose yotr trip Click Your home reservation Click Modify reservation",
+      "th": "ไปที่ทริปและเลือกทริปของคุณ จากนั้นคลิกที่การจองบ้านของคุณ แล้วคลิกแก้ไขการจอง"
+    },
+    {
+      "text_id": "You'll be taken to",
+      "en": "You'll be taken to a new page where you either change or cancel your reservation. Click the Next button under Cancel reservation to Start the cancellation process.",
+      "th": "คุณจะถูกนำไปยังหน้าที่คุณสามารถเปลี่ยนแปลงหรือยกเลิกการจองของคุณได้ คลิกปุ่มถัดไปใต้การยกเลิกการจองเพื่อเริ่มกระบวนการยกเลิก"
+    },
+    {
+      "text_id": "If you cancel, your ",
+      "en": "If you cancel, your refund Will be determined by your host'r cancellation policy. We'll show your refund breakdown before you finalize the cancellation.",
+      "th": "หากคุณยกเลิก การคืนเงินของคุณจะถูกกำหนดตามนโยบายการยกเลิกของเจ้าของบ้าน เราจะแสดงรายละเอียดการคืนเงินก่อนที่คุณจะยืนยันการยกเลิก"
+    },
+    {
+      "text_id": "Give feedback",
+      "en": "Give feedback",
+      "th": "ให้ข้อเสนอแนะ"
+    },
+    {
+      "text_id": "Related articles",
+      "en": "Related articles",
+      "th": "บทความที่เกี่ยวข้อง"
+    },
+    {
+      "text_id": "Can I change",
+      "en": "Can I change a reservation as a guest?",
+      "th": "ฉันสามารถเปลี่ยนแปลงการจองในฐานะผู้เข้าพักได้หรือไม่?"
+    },
+    {
+      "text_id": "HoW do I cancel",
+      "en": "HoW do I cancel a reservation request?",
+      "th": "ฉันจะยกเลิกคำขอจองได้อย่างไร?"
+    },
+    {
+      "text_id": "What is the",
+      "en": "What is the Resolution Center?",
+      "th": "ศูนย์แก้ไขปัญหาคืออะไร?"
+    },
+    {
+      "text_id": "payment_text",
+      "en": "Payment",
+      "th": "การชำระเงิน"
+    },
+    {
+      "text_id": "setting_text",
+      "en": "Setting",
+      "th": "การตั้งค่า"
+    },
+    {
+      "text_id": "Notifications",
+      "en": "Notifications",
+      "th": "การแจ้งเตือน"
+    },
+    {
+      "text_id": "Theme Mode",
+      "en": "Theme Mode",
+      "th": "โหมดธีม"
+    },
+    {
+      "text_id": "light",
+      "en": "light",
+      "th": "สว่าง"
+    },
+    {
+      "text_id": "dark",
+      "en": "dark",
+      "th": "มืด"
+    },
+    {
+      "text_id": "system",
+      "en": "system",
+      "th": "ระบบ"
+    },
+    {
+      "text_id": "Fonts",
+      "en": "Fonts",
+      "th": "ฟอนต์"
+    },
+    {
+      "text_id": "selected_fonts",
+      "en": "Selected fonts",
+      "th": "ฟอนต์ที่เลือก"
+    },
+    {
+      "text_id": "Color",
+      "en": "Color",
+      "th": "สี"
+    },
+    {
+      "text_id": "Selected color",
+      "en": "Selected color",
+      "th": "สีที่เลือก"
+    },
+    {
+      "text_id": "Language",
+      "en": "Language",
+      "th": "ภาษา"
+    },
+    {
+      "text_id": "Selected language",
+      "en": "Selected language",
+      "th": "ภาษาที่เลือก"
+    },
+    {
+      "text_id": "Country",
+      "en": "Country",
+      "th": "ประเทศ"
+    },
+    {
+      "text_id": "Currency",
+      "en": "Currency",
+      "th": "สกุลเงิน"
+    },
+    {
+      "text_id": "Terms of Services",
+      "en": "Terms of Services",
+      "th": "ข้อกำหนดการให้บริการ"
+    },
+    {
+      "text_id": "Privacy Policy",
+      "en": "Privacy Policy",
+      "th": "นโยบายความเป็นส่วนตัว"
+    },
+    {
+      "text_id": "Give Us Feedbacks",
+      "en": "Give Us Feedbacks",
+      "th": "ให้ข้อเสนอแนะกับเรา"
+    },
+    {
+      "text_id": "Log out",
+      "en": "Log out",
+      "th": "ออกจากระบบ"
+    },
+    {
+      "text_id": "Hello",
+      "en": "Hello",
+      "th": "สวัสดี"
+    },
+    {
+      "text_id": "room_selected",
+      "en": "Room selected",
+      "th": "ห้องที่เลือก"
+    },
+    {
+      "text_id": "number_room",
+      "en": "Number of Room",
+      "th": "จำนวนห้อง"
+    },
+    {
+      "text_id": "people_data",
+      "en": "People",
+      "th": "ผู้เข้าพัก"
+    },
+    {
+      "text_id": "room_data",
+      "en": "Room",
+      "th": "ห้อง"
+    },
+    {
+      "text_id": "choose_date",
+      "en": "Choose Date",
+      "th": "เลือกวันที่"
+    },
+    {
+      "text_id": "Apply_date",
+      "en": "Apply",
+      "th": "นำไปใช้"
+    },
+    {
+      "text_id": "From_text",
+      "en": "From",
+      "th": "จาก"
+    },
+    {
+      "text_id": "to_text",
+      "en": "To",
+      "th": "ถึง"
+    },
+    {
+      "text_id": "sleeps",
+      "en": "sleeps",
+      "th": "นอน"
+    },
+    {
+      "text_id": "children",
+      "en": "children",
+      "th": "เด็ก"
+    },
+    {
+      "text_id": "enter_new_password",
+      "en": "enter new password",
+      "th": "กรอกรหัสผ่านใหม่"
+    },
+    {
+      "text_id": "enter_confirm_password",
+      "en": "enter confirm password",
+      "th": "กรอกยืนยันรหัสผ่าน"
+    },
+    {
+      "text_id": "password_cannot_empty",
+      "en": "Password cannot be empty",
+      "th": "รหัสผ่านไม่สามารถว่างได้"
+    },
+    {
+      "text_id": "valid_new_password",
+      "en": "We cannot allow less than 6 lengths of the password, please enter a valid new password",
+      "th": "รหัสผ่านใหม่ต้องมีความยาวอย่างน้อย 6 ตัวอักษร กรุณากรอกรหัสผ่านใหม่ที่ถูกต้อง"
+    },
+    {
+      "text_id": "valid_password",
+      "en": "We cannot allow less than 6 lengths of the password, please enter a valid password",
+      "th": "รหัสผ่านต้องมีความยาวอย่างน้อย 6 ตัวอักษร กรุณากรอกรหัสผ่านที่ถูกต้อง"
+    },
+    {
+      "text_id": "password_not_match",
+      "en": "Password does not match, please enter a valid password",
+      "th": "รหัสผ่านไม่ตรงกัน กรุณากรอกรหัสผ่านที่ถูกต้อง"
+    },
+    {
+      "text_id": "enter_your_email",
+      "en": "enter your email",
+      "th": "กรอกอีเมลของคุณ"
+    },
+    {
+      "text_id": "email_cannot_empty",
+      "en": "Email cannot be empty",
+      "th": "อีเมลไม่สามารถว่างได้"
+    },
+    {
+      "text_id": "enter_valid_email",
+      "en": "Please enter a valid email address, abc@xyz.com",
+      "th": "กรุณากรอกอีเมลที่ถูกต้อง เช่น abc@xyz.com"
+    },
+    {
+      "text_id": "enter_password",
+      "en": "enter password",
+      "th": "กรอกรหัสผ่าน"
+    },
+    {
+      "text_id": "enter_first_name",
+      "en": "Enter first name",
+      "th": "กรอกชื่อ"
+    },
+    {
+      "text_id": "enter_last_name",
+      "en": "Enter first name",
+      "th": "กรอกนามสกุล"
+    },
+    {
+      "text_id": "first_name_cannot_empty",
+      "en": "First Name cannot be empty",
+      "th": "ชื่อไม่สามารถว่างได้"
+    },
+    {
+      "text_id": "last_name_cannot_empty",
+      "en": "Last Name cannot be empty",
+      "th": "นามสกุลไม่สามารถว่างได้"
+    }
+  ]
+  
