@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:hotelbooking/common/common.dart' as common;
 import 'package:hotelbooking/providers/theme_provider.dart';
 import 'package:hotelbooking/utils/enum.dart';
-import 'package:hotelbooking/motel_app.dart';
+import 'package:hotelbooking/hotel_app.dart';
 import 'package:provider/provider.dart';
 
 class AppLocalizations {
@@ -15,8 +15,9 @@ class AppLocalizations {
     final List<Map<String, String>> allTexts = [];
 
     List<dynamic> jsonData = json.decode(
-      await DefaultAssetBundle.of(context).loadString(
-          'packages/flutter_hotel_booking_ui/language/lang/language_text.json'),
+      await DefaultAssetBundle.of(
+        context,
+      ).loadString('lib/language/lang/language_text.json'),
     );
 
     for (var value in jsonData) {
@@ -32,18 +33,20 @@ class AppLocalizations {
   }
 
   String of(String textId) {
-    LanguageType languageType = applicationcontext == null
-        ? LanguageType.en
-        : applicationcontext!.read<ThemeProvider>().languageType;
+    LanguageType languageType =
+        applicationcontext == null
+            ? LanguageType.en
+            : applicationcontext!.read<ThemeProvider>().languageType;
     final Locale myLocale = Localizations.localeOf(context);
     if (myLocale.languageCode != '' && myLocale.languageCode.length == 2) {
       if (common.allTexts != null && common.allTexts!.isNotEmpty) {
         String newtext = '';
-        final index = common.allTexts!
-            .indexWhere((element) => element['text_id'] == textId);
+        final index = common.allTexts!.indexWhere(
+          (element) => element['text_id'] == textId,
+        );
         if (index != -1) {
-          newtext = common.allTexts![index]
-                  [languageType.toString().split(".")[1]] ??
+          newtext =
+              common.allTexts![index][languageType.toString().split(".")[1]] ??
               '';
           if (newtext != '') return newtext;
         }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hotelbooking/utils/themes.dart';
 import 'package:hotelbooking/utils/enum.dart';
-import 'package:hotelbooking/motel_app.dart';
+import 'package:hotelbooking/hotel_app.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPreferencesKeys {
@@ -71,7 +71,7 @@ class SharedPreferencesKeys {
         }
         return type;
       } else {
-        return LanguageType.en; // Default we set english
+        return LanguageType.en;
       }
     }
   }

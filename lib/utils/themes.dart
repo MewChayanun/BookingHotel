@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hotelbooking/utils/enum.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hotelbooking/providers/theme_provider.dart';
-import 'package:hotelbooking/motel_app.dart';
+import 'package:hotelbooking/hotel_app.dart';
 import 'package:provider/provider.dart';
 
 class AppTheme {
@@ -13,9 +13,10 @@ class AppTheme {
   }
 
   static Color get primaryColor {
-    ColorType colorTypeData = applicationcontext == null
-        ? ColorType.verdigris
-        : applicationcontext!.read<ThemeProvider>().colorType;
+    ColorType colorTypeData =
+        applicationcontext == null
+            ? ColorType.verdigris
+            : applicationcontext!.read<ThemeProvider>().colorType;
 
     return getColor(colorTypeData);
   }
@@ -45,9 +46,10 @@ class AppTheme {
       isLightMode ? _buildLightTheme() : _buildDarkTheme();
 
   static TextTheme _buildTextTheme(TextTheme base) {
-    FontFamilyType fontType = applicationcontext == null
-        ? FontFamilyType.workSans
-        : applicationcontext!.read<ThemeProvider>().fontType;
+    FontFamilyType fontType =
+        applicationcontext == null
+            ? FontFamilyType.workSans
+            : applicationcontext!.read<ThemeProvider>().fontType;
     return base.copyWith(
       displayLarge: getTextStyle(fontType, base.displayLarge!),
       displayMedium: getTextStyle(fontType, base.displayMedium!),
@@ -85,7 +87,9 @@ class AppTheme {
   }
 
   static TextStyle getTextStyle(
-      FontFamilyType fontFamilyType, TextStyle textStyle) {
+    FontFamilyType fontFamilyType,
+    TextStyle textStyle,
+  ) {
     switch (fontFamilyType) {
       case FontFamilyType.montserrat:
         return GoogleFonts.montserrat(textStyle: textStyle);
@@ -148,9 +152,7 @@ class AppTheme {
 
   static ButtonThemeData _buttonThemeData(ColorScheme colorScheme) {
     return ButtonThemeData(
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(8.0),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
       colorScheme: colorScheme,
       textTheme: ButtonTextTheme.primary,
     );
@@ -158,9 +160,7 @@ class AppTheme {
 
   static DialogTheme _dialogTheme() {
     return DialogTheme(
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(8.0),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
       elevation: 0,
       backgroundColor: backgroundColor,
     );
@@ -176,62 +176,57 @@ class AppTheme {
         blue: secondaryTextColor.b.toDouble(),
         alpha: 0.2,
       ),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(8.0),
-      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
       elevation: 8,
       margin: const EdgeInsets.all(0),
     );
   }
 
   static get mapCardDecoration => BoxDecoration(
-        color: AppTheme.scaffoldBackgroundColor,
-        borderRadius: const BorderRadius.all(Radius.circular(24.0)),
-        boxShadow: <BoxShadow>[
-          BoxShadow(
-              color: Theme.of(applicationcontext!).dividerColor,
-              offset: const Offset(4, 4),
-              blurRadius: 8.0),
-        ],
-      );
+    color: AppTheme.scaffoldBackgroundColor,
+    borderRadius: const BorderRadius.all(Radius.circular(24.0)),
+    boxShadow: <BoxShadow>[
+      BoxShadow(
+        color: Theme.of(applicationcontext!).dividerColor,
+        offset: const Offset(4, 4),
+        blurRadius: 8.0,
+      ),
+    ],
+  );
 
   static get buttonDecoration => BoxDecoration(
-        color: AppTheme.primaryColor,
-        borderRadius: const BorderRadius.all(Radius.circular(24.0)),
-        boxShadow: <BoxShadow>[
-          BoxShadow(
-            color: Theme.of(applicationcontext!).dividerColor,
-            blurRadius: 8,
-            offset: const Offset(4, 4),
-          ),
-        ],
-      );
+    color: AppTheme.primaryColor,
+    borderRadius: const BorderRadius.all(Radius.circular(24.0)),
+    boxShadow: <BoxShadow>[
+      BoxShadow(
+        color: Theme.of(applicationcontext!).dividerColor,
+        blurRadius: 8,
+        offset: const Offset(4, 4),
+      ),
+    ],
+  );
 
   static get searchBarDecoration => BoxDecoration(
-        color: AppTheme.scaffoldBackgroundColor,
-        borderRadius: const BorderRadius.all(Radius.circular(38)),
-        boxShadow: <BoxShadow>[
-          BoxShadow(
-            color: Theme.of(applicationcontext!).dividerColor,
-            blurRadius: 8,
-          ),
-        ],
-      );
+    color: AppTheme.scaffoldBackgroundColor,
+    borderRadius: const BorderRadius.all(Radius.circular(38)),
+    boxShadow: <BoxShadow>[
+      BoxShadow(
+        color: Theme.of(applicationcontext!).dividerColor,
+        blurRadius: 8,
+      ),
+    ],
+  );
 
   static get boxDecoration => BoxDecoration(
-        color: AppTheme.scaffoldBackgroundColor,
-        borderRadius: const BorderRadius.all(Radius.circular(16.0)),
-        boxShadow: <BoxShadow>[
-          BoxShadow(
-            color: Theme.of(applicationcontext!).dividerColor,
-            blurRadius: 8,
-          ),
-        ],
-      );
+    color: AppTheme.scaffoldBackgroundColor,
+    borderRadius: const BorderRadius.all(Radius.circular(16.0)),
+    boxShadow: <BoxShadow>[
+      BoxShadow(
+        color: Theme.of(applicationcontext!).dividerColor,
+        blurRadius: 8,
+      ),
+    ],
+  );
 }
 
-enum ThemeModeType {
-  system,
-  dark,
-  light,
-}
+enum ThemeModeType { system, dark, light }

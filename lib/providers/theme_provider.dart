@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hotelbooking/utils/shared_preferences_keys.dart';
 import 'package:hotelbooking/utils/themes.dart';
 import 'package:hotelbooking/utils/enum.dart';
-import 'package:hotelbooking/motel_app.dart';
+import 'package:hotelbooking/hotel_app.dart';
 
 class ThemeProvider extends ChangeNotifier {
   ThemeProvider({required ThemeData state}) : super();
@@ -24,11 +24,13 @@ class ThemeProvider extends ChangeNotifier {
     await SharedPreferencesKeys().setThemeMode(themeModeType);
     final systembrightness =
         MediaQuery.of(applicationcontext!).platformBrightness;
-    checkAndSetThemeMode(themeModeType == ThemeModeType.light
-        ? Brightness.light
-        : themeModeType == ThemeModeType.dark
-            ? Brightness.dark
-            : systembrightness);
+    checkAndSetThemeMode(
+      themeModeType == ThemeModeType.light
+          ? Brightness.light
+          : themeModeType == ThemeModeType.dark
+          ? Brightness.dark
+          : systembrightness,
+    );
   }
 
   void checkAndSetThemeMode(Brightness systemBrightness) async {
